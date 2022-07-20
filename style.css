@@ -1,0 +1,349 @@
+
+body {
+    background-color: rgb(252, 253, 254);
+}
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+
+}
+button{
+    cursor: pointer;
+}
+
+nav {
+
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+
+}
+
+nav div {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+nav div a {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(140, 155, 186);
+}
+
+nav div button {
+    margin-left: 20px;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 15px;
+    height: 39px;
+    background-color: rgb(255, 117, 85);
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+nav div button:nth-child(1) {
+    background-color: transparent;
+    color: rgb(72, 128, 255);
+    border: 1px solid rgb(72, 128, 255);
+}
+
+nav div:nth-child(2) {
+    width: 500px;
+}
+
+nav div:nth-child(2) a {
+    margin-top: 8px;
+    color: rgb(68, 85, 120);
+    font-weight: bold;
+    padding-left: 20px;
+    border-left: 1px solid rgba(68, 85, 120, 0.678);
+}
+
+nav div:nth-child(1) a {
+    margin-left: 35px;
+    margin-top: 11px;
+    font-weight: 300;
+    color: rgb(164, 175, 201);
+}
+
+nav img {
+    margin-right: 50px;
+}
+
+.dreamjob {
+    text-align: center;
+
+    margin: auto;
+}
+
+.dreamjob h1 {
+    font-size: 39px;
+    color: rgb(27, 36, 55);
+    font-weight: 700;
+
+}
+
+#search {
+    width: 300px;
+    height: 30.0px;
+}
+
+select,
+option,
+input {
+    height: 30px;
+}
+
+form {
+    
+    padding: 10px;
+    width: fit-content;
+    padding: 15px;
+    border-radius:30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+
+}
+
+input,
+select {
+    width: 300px;
+
+}
+
+select {
+    height: 35px;
+    margin-left:10px;
+    border-left: 1px solid rgb(140, 155, 186);
+    margin-right: 10px;
+}
+
+.searchicon {
+    position: relative;
+    top: 7px;
+    right: 10px;
+}
+
+input,
+select {
+    border: none;
+
+    outline: none;
+
+}
+
+
+#exp {
+   
+    border-right: 1px solid rgba(140, 155, 186, 0.384);
+    border-left: 1px solid rgba(140, 155, 186, 0.274);
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+/* input:nth-child(2){
+    border-left: 1px solid rgb(140, 155, 186);
+} */
+option,
+select,
+input::placeholder {
+    color: rgb(140, 155, 186);
+    font-size: 15px;
+    border: none;
+}
+.dreamjob button{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(69,126,255);
+    color: white;
+    border-radius: 55px;
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.dreamjob>p{
+    font-size: 22px;
+    color: rgb(140, 155, 186);
+    margin-top: 20px;
+}
+.dreamjob{
+    margin-top: 40px;
+}
+.register{
+    display: flex;
+    width: 900px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    align-content: center;
+    border-radius: 15px;
+    border: 1px dotted rgba(100, 100, 100, 0.349);
+    
+    padding: 15px;
+}
+
+.register button{
+    height: 38px;
+    width: 130px;
+    font-size: 17px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255,117,85);
+    color: white;
+    margin-top: 10px;
+}
+.register h2{
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 500px;
+}
+.register p{
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    text-align: left;
+    margin-top: 5px;
+ 
+}
+.trending{
+    display: flex;
+    justify-content: space-evenly;
+   
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+}
+.heading{
+    text-align: center;
+    margin-top: 40px;
+}
+.trending div{
+    width: 240px;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid rgba(100, 100, 100, 0.425);
+}
+.trending h4{
+font-size: 19px;
+}
+h1,h2,h3,h4{
+    color: rgb(27,36,55);
+    font-family: 'Roboto Slab', serif;
+
+}
+.explore{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
+.explore div{
+    margin-top: 20px;
+}
+.explore h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+p{
+   color: rgb(140, 155, 186);
+}
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(252, 253, 254);
+}
+.explore p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fcompanies{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.fcompanies div div{
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    margin: auto;
+    justify-content: center;
+}
+.fcompanies>div{
+    width: 210px;
+    padding: 20px;
+    height: 250px;
+   
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+.fcompanies>div:hover{
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+}
+.fcompanies>div>h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.fcompanies button{
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(69,126,255);
+    border: none;
+    background-color: rgb(241,245,255);
+}
+.fcompanies p{
+    font-weight: 400px;
+    font-size: 13px;
+}
+.fcompanies div div{
+    width: 150px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    background-color: rgb(247,248,251);
+    border-radius: 25px;
+}
+.fcompanies div div p{
+    margin-top: 5px;
+    padding-left: 10px;
+    border-left: 1px solid rgba(85, 85, 85, 0.473);
+}
+.fcompanies div div h4{
+    padding-right: 5px;
+}
+.fcompanies>div>p{
+    width: 140px;
+    line-height: 18px;
+    margin: auto;
+}
