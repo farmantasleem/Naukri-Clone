@@ -182,7 +182,7 @@ input::placeholder {
     background-color: rgb(69,126,255);
     color: white;
     border-radius: 55px;
-    font-size: 21px;
+    font-size: 19px;
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -197,7 +197,7 @@ input::placeholder {
 }
 .register{
     display: flex;
-    width: 900px;
+    width: 800px;
     justify-content: space-evenly;
     text-align: center;
     margin: auto;
@@ -206,10 +206,11 @@ input::placeholder {
     border-radius: 15px;
     border: 1px dotted rgba(100, 100, 100, 0.349);
     
-    padding: 15px;
+    padding: 10px;
 }
 
 .register button{
+
     height: 38px;
     width: 130px;
     font-size: 17px;
@@ -221,11 +222,11 @@ input::placeholder {
 }
 .register h2{
     margin-top: 10px;
-    font-size: 23px;
+    font-size: 17px;
     font-weight: 500px;
 }
 .register p{
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(100, 100, 100);
     text-align: left;
     margin-top: 5px;
@@ -253,7 +254,10 @@ input::placeholder {
     border: 1px solid rgba(100, 100, 100, 0.425);
 }
 .trending h4{
-font-size: 19px;
+font-size: 17px;
+}
+.trending p{
+    font-size: 13px;
 }
 h1,h2,h3,h4{
     color: rgb(27,36,55);
@@ -270,11 +274,14 @@ h1,h2,h3,h4{
     margin-top: 20px;
 }
 .explore h4{
-    font-size: 22px;
+    font-size: 17px;
     margin-bottom: 10px;
 }
 p{
    color: rgb(140, 155, 186);
+}
+.explore p{
+    font-size: 13px;
 }
 nav{
     position: sticky;
