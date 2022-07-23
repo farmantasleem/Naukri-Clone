@@ -230,3 +230,34 @@ body{
  
    
 }
+footer{
+    display: flex;
+    background-color: rgb(46,51,57);
+    justify-content: space-evenly;
+}
+footer h3,footer h2{
+    color: rgb(238,237,237);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer p{
+    color: rgb(182, 184, 186);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    
+    margin-bottom: 10px;
+}
+.footerchild{
+    display: flex;
+    width: 80%;
+    justify-self: center;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
