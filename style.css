@@ -61,6 +61,7 @@ nav div button:nth-child(1) {
     border: 1px solid rgb(72, 128, 255);
 }
 
+
 nav div:nth-child(2) {
     width: 500px;
 }
@@ -95,7 +96,7 @@ nav img {
 }
 
 .dreamjob h1 {
-    font-size: 39px;
+    font-size: 35px;
     color: rgb(27, 36, 55);
     font-weight: 700;
 
@@ -187,7 +188,7 @@ input::placeholder {
     font-weight: bold;
 }
 .dreamjob>p{
-    font-size: 22px;
+    font-size: 17px;
     color: rgb(140, 155, 186);
     margin-top: 20px;
 }
