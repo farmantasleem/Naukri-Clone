@@ -1,0 +1,144 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: rgb(244,244,244);
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    justify-self: center;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+}
+
+nav p {
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+
+}
+
+nav>p+img {
+    height: 32px;
+    cursor: pointer;
+}
+
+.navchild {
+    display: flex;
+
+    background-color: rgba(115, 118, 129, 0.438);
+    border: 2px solid black;
+    background-image: url(./images/bg.jpg);
+    background-size: 100%;
+    padding: 10px;
+    color: white;
+
+
+}
+
+.navchild p {
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.navchild p:first-child{ margin-left: 110.90px;}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(./images/bg.jpg);
+    background-size: 100%;
+    color: white;
+    padding: 20px;
+
+
+}
+main>div>div+div{
+    margin-top: 40px;
+}
+
+main>div>div+div>div {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 10px;
+   
+}
+
+main>div:nth-child(1) button {
+    height: 39px;
+    font-size: 18px;
+    background-color: rgb(15, 137, 178);
+    color: white;
+    font-weight: 400;
+    border: none;
+    margin-left: -5.0px;
+    align-items: center;
+    cursor: pointer;
+    width: 90px;
+    position: relative;
+    top: 1px;
+}
+
+main input {
+    height: 20px;
+    padding: 5px;
+    border: 4px solid silver;
+    margin-left: -7px;
+
+
+
+
+}
+
+main input:first-child {
+    width: 400px;
+}
+main>div:nth-child(2) button{ 
+    width: 200px;
+    height: 49px;
+    background-color: rgb(255,136,0);
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+main>div:nth-child(2){
+    text-align: center;
+    background-color: rgb(232,232,232);
+    color: rgb(102,102,102);
+    padding: 20px;
+    
+}
+main>div:nth-child(2) h2{
+    color: rgb(27,162,207);
+    font-size: 23px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+main>div:nth-child(2) h2+p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}main>div>div>div {
+   margin-top: 50px;
+    align-items: center;
+}
+main>div>div p:first-child{
+background-color: rgb(34,45,57);
+color: white;
+padding: 10px;
+}
+main>div>div>div p{
+    cursor: pointer;
+}
